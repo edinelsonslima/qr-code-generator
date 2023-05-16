@@ -1,27 +1,52 @@
+import { Metadata } from 'next';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Gerador de QR codes',
   description: 'Crie QR codes de forma simples e rápida.',
-  url: 'https://qr-code-edinelsonslima.vercel.app/',
-  image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
+  authors: [
+    { name: '@edinelsonslima', url: 'https://github.com/edinelsonslima' },
+  ],
+  abstract: 'Crie QR codes de forma simples e rápida.',
+  appleWebApp: true,
+  applicationName: 'Gerador de QR codes',
+  category: 'QR code',
+  colorScheme: 'light',
+  creator: '@edinelsonslima',
+  themeColor: '#AA2930',
+  viewport: 'width=device-width, initial-scale=1.0',
+  openGraph: {
+    type: 'website',
+    url: 'https://qr-code-edinelsonslima.vercel.app/',
+    countryName: 'Brasil',
+    siteName: 'Gerador de QR codes',
+    title: 'Gerador de QR codes',
+    locale: 'pt_BR',
+    description: 'Crie QR codes de forma simples e rápida.',
+    images: [
+      {
+        url: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
+        alt: 'Gerador de QR codes',
+      },
+    ],
+  },
   twitter: {
     card: 'summary_large_image',
-    domain: 'qr-code-edinelsonslima.vercel.app',
-    url: 'https://qr-code-edinelsonslima.vercel.app/',
-    title: 'Gerador de QR codes',
+    creator: '@edinelsonslima',
+    creatorId: '@edinelsonslima',
     description: 'Crie QR codes de forma simples e rápida.',
-    image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
-  },
-  facebook: {
-    url: 'https://qr-code-edinelsonslima.vercel.app/',
-    type: 'website',
+    images: [
+      {
+        url: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
+        alt: 'Gerador de QR codes',
+      },
+    ],
+    site: 'https://qr-code-edinelsonslima.vercel.app/',
+    siteId: 'https://qr-code-edinelsonslima.vercel.app/',
     title: 'Gerador de QR codes',
-    description: 'Crie QR codes de forma simples e rápida.',
-    image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
   },
 };
 
