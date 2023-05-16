@@ -6,22 +6,22 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Gerador de QR codes',
   description: 'Crie QR codes de forma simples e rápida.',
-  url: 'https://qr-code-generator-edinelsonslima.vercel.app/',
-  image: 'https://qr-code-generator-edinelsonslima.vercel.app/favicon.ico',
+  url: 'https://qr-code-edinelsonslima.vercel.app/',
+  image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
   twitter: {
     card: 'summary_large_image',
-    domain: 'qr-code-generator-edinelsonslima.vercel.app',
-    url: 'https://qr-code-generator-edinelsonslima.vercel.app/',
+    domain: 'qr-code-edinelsonslima.vercel.app',
+    url: 'https://qr-code-edinelsonslima.vercel.app/',
     title: 'Gerador de QR codes',
     description: 'Crie QR codes de forma simples e rápida.',
-    image: 'https://qr-code-generator-edinelsonslima.vercel.app/favicon.ico',
+    image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
   },
   facebook: {
-    url: 'https://qr-code-generator-edinelsonslima.vercel.app/',
+    url: 'https://qr-code-edinelsonslima.vercel.app/',
     type: 'website',
     title: 'Gerador de QR codes',
     description: 'Crie QR codes de forma simples e rápida.',
-    image: 'https://qr-code-generator-edinelsonslima.vercel.app/favicon.ico',
+    image: 'https://qr-code-edinelsonslima.vercel.app/favicon.ico',
   },
 };
 
