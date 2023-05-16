@@ -14,8 +14,25 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='pt-BR'>
+      <body className={`${inter.className} h-screen bg-slate-50 container p-2 mx-auto flex flex-col items-center gap-5`}>
+        <h1 className='text-primary text-2xl font-bold mt-10'>Gerador de QR Code</h1>
+
+        {children}
+
+        <footer className='pb-24'>
+          <small className='text-slate-800'>
+            Desenvolvido por{' '}
+            <a
+              target='_blank'
+              className='text-primary'
+              href='https://github.com/edinelsonslima'
+            >
+              @edinelsonslima
+            </a>
+          </small>
+        </footer>
+      </body>
     </html>
-  )
+  );
 }
